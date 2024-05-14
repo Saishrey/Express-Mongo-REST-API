@@ -1,0 +1,33 @@
+GET http://localhost:3000/users
+
+###
+
+GET http://localhost:3000/users/6643331e04a5dc507adbf8af
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+# {
+#     "name": "Poham Sagui",
+#     "age": 23,
+#     "dob": "2001-01-12T09:37:54.206Z"
+# }
+
+
+###
+
+DELETE http://localhost:3000/users/664330f2dc8691876c13883c
+
+###
+
+
+PATCH http://localhost:3000/users/66433128dc8691876c13883f
+Content-Type: application/json
+
+# {
+#     "name": "Kishal Kidikar"
+# }
+
+###
